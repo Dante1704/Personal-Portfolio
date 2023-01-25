@@ -6,8 +6,8 @@ const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <nav className="relative navbar flex flex-col sm:flex-row justify-between mx-auto max-w-5x1 md:w-4/5 lg:w-full bg-gray-100">
-         <div className="flex flex-row justify-between w-full">{/* fixed z-30 top-4 right-4 bg-gray-200 rounded-lg sm:hidden shadow-md */}
+    <nav className="relative navbar flex flex-col sm:flex-row justify-between mx-auto max-w-5x1  lg:w-full bg-gray-100">
+         <div className="flex flex-row justify-between w-full">
             <p className="glass w-12 h-12 p-2.5	align-bottom  rounded-full text-white text-center  bg-black font-bold hover:bg-gradient-to-r from-rose-600 to-yellow-400 normal-case text-xl">DK</p>
             {  
               isExpanded ?
@@ -21,15 +21,17 @@ const NavBar = () => {
             }
         </div>
         <div className={!isExpanded ? "invisible flex absolute top-16 right-0 sm:static sm:visible" : "flex absolute top-16 right-0 sm:static sm:visible"}>
-            <ul className={"menu menu-horizontal pr-4 flex flex-col items-start sm:flex-row"}>
+            <ul className={"menu menu-horizontal pr-4 flex flex-col items-start sm:flex-row transition-all"}>
               <li><a href="#nowhere">PROJECTS</a></li>
               <li><a href="#nowhere">ABOUT</a></li>
               <li><a href="#nowhere">CONTACT</a></li>
             </ul>
         </div>
-    </nav>
+    </nav>     
   )
 }
 
+    
+  
 export default NavBar
 //faltaria ponerle alguna transicion a la aparicion del menu
