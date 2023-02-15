@@ -37,6 +37,7 @@ const Footer = () => {
         <p className='text-center'>
           Icons created by <a href="https://www.flaticon.com/" title="flaticon" target="_blank" rel="noreferrer" className='link'>Flaticon</a>
         </p>
+        <p className='text-center'><a href="https://iconscout.com/icons/redux" target="_blank" rel="noreferrer" className='link'>Redux Logo Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noreferrer" className='link'>Icon Mafia</a></p>
       </div>
     </footer>
   )

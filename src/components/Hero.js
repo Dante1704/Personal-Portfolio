@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="mt-20 px-3 flex justify-start gap-10">
               <Link to="/pdf" target="_blank"><button className="btn">GET MY RÉSUMÉ</button></Link>
               <a href='mailto:dante.nkaddarian@gmail.com'>
-                <button className="btn btn-outline">dante.nkaddarian@gmail.com</button>
+                <button className="btn btn-outline">email me</button>
               </a>
             </div>
         </div>

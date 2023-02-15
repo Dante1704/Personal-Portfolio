@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+html {
+    scroll-behavior: smooth;
+}
+    
 .name-animated, .profession-animated {
     background-clip: text;
     background-size: 300% 300%;
