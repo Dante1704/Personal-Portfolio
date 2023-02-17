@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import HTML from "../images/tech_stack_icons/html.png";
 import CSS from "../images/tech_stack_icons/css-3.png";
 import Bootstrap from "../images/tech_stack_icons/bootstrap.png";
-import Tailwind from "../images/tech_stack_icons/tailwind-css.svg";
 import javascript from "../images/tech_stack_icons/js.png";
 import react from "../images/tech_stack_icons/react.png";
 import redux from "../images/tech_stack_icons/redux.png";
@@ -115,7 +114,7 @@ const Projects = () => {
             <p>
             I developed this project on my own, from the design to the last push to GitHub. 
             </p>
-            <iframe  className='mt-14' width="100%" height="400" src="https://www.youtube.com/embed/4eMzm1UMVLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  className='mt-14' width="100%" height="400" src="https://www.youtube.com/embed/4eMzm1UMVLo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <h3 className='mt-14 text-xl font-bold md:text-2xl'>Tech Stack Used in This Proyect</h3>
             <div className="grid grid-cols-4 gap-4 mt-14">
               <div className='flex flex-col items-center'>
