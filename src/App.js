@@ -7,9 +7,6 @@ import {
 import Home from "./components/Home";
 import Pdf from "./components/Pdf";
 
-import './App.css';
-
-
 const App = () => {
   return (
     <BrowserRouter>

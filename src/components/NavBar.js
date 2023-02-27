@@ -6,7 +6,7 @@ const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <nav className="relative navbar flex flex-col sm:flex-row justify-between mx-auto max-w-5x1  lg:w-full bg-gray-100">
+    <nav className="relative navbar flex flex-col sm:flex-row justify-between mx-auto max-w-5x1  lg:w-full bg-gradient-to-b from-[#f5f5ff] to-[#e6e7ff] ">
          <div className="flex flex-row justify-between w-full">
             <p className="glass w-12 h-12 p-2.5	align-bottom rounded-full text-white text-center bg-black font-bold hover:bg-gradient-to-r from-rose-600 to-yellow-400 normal-case text-xl">DK</p>
             {  
@@ -21,10 +21,10 @@ const NavBar = () => {
             }
         </div>
         <div className={!isExpanded ? "flex absolute top-16 -right-32 transition-[right] duration-500 ease-out sm:static sm:visible" : "flex absolute bg-gray-100 top-16 right-0 transition-[right] duration-500 ease-out rounded sm:static sm:visible"}>
-            <ul className={"menu menu-horizontal flex flex-col items-start border-black rounded sm:flex-row transition-all"}>
-              <li><a href="#projects" className={"min-w-[120px]"}>PROJECTS</a></li>
-              <li><a href="#about" className={"min-w-[120x]"}>ABOUT</a></li>
-              <li><a href="#contact" className={"min-w-[120px]"}>CONTACT</a></li>
+            <ul className={"menu menu-horizontal flex flex-col items-start border-black rounded sm:flex-row sm:gap-5 transition-all"}>
+              <li><a href="#projects" className={"min-w-[80px] text-[#0c0019]"}>PROJECTS</a></li>
+              <li><a href="#about" className={"min-w-[80px] text-[#0c0019]"}>ABOUT</a></li>
+              <li><a href="#contact" className={"min-w-[80px] text-[#0c0019]"}>CONTACT</a></li>
             </ul>
         </div>
     </nav>     

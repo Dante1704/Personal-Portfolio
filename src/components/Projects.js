@@ -18,9 +18,9 @@ import earth_globe from "../images/earth_globe.png";
 const Projects = () => {
   return (
     <>
-      <h2 className='header-projects text-5xl font-bold font-poppins text-center w-max subpixel-antialiased mx-auto p-2 pt-20'>Projects</h2>
-      <section className='text-white px-3' id='projects' >
-        <article className='mt-32 flex flex-col lg:flex-row gap-6 max-w-5xl mx-auto px-2 text-white'>
+      <h2 className=' text-5xl font-bold font-poppins text-center w-max subpixel-antialiased mx-auto p-2 pt-20 text-[#eee1ff]'>Projects</h2>
+      <section className='text-[#eee1ff] px-3' id='projects' >
+        <article className='mt-32 flex flex-col lg:flex-row gap-6 max-w-5xl mx-auto px-2'>
           <div className='w-full md:w-9/12 md:mx-auto lg:max-w-xl'>
             <header>
               <h3 className='mb-6 text-2xl font-bold md:text-3xl'>E-commerce TIENDANUESTRA</h3>
@@ -88,23 +88,23 @@ const Projects = () => {
             </div>
           </div>
           <div className='max-w-sm mx-auto mx-auto lg:mx-0 lg:mr-auto lg:w-8/12'>
-            <Link to="http://159.223.195.60:3000/" className="btn btn-lg bg-slate-100 text-black mt-14 min-[321px]:mr-4" target="_blank">
+            <Link to="http://159.223.195.60:3000/" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] mt-14 min-[321px]:mr-4" target="_blank">
             Watch it Live
             </Link>
-            <Link to="https://github.com/Dante1704/Henry-s-Final-Project" className="btn btn-lg bg-slate-100 text-black min-[321px]:ml-4" target="_blank">
+            <Link to="https://github.com/Dante1704/Henry-s-Final-Project" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] min-[321px]:ml-4" target="_blank">
             GitHub    
             </Link>
             <img src={ecommerce} className="max-w-[250px] mt-14 hidden lg:block contrast-50" alt="git icon"/>
           </div>
        </article>
 
-       <article className='mt-32 flex flex-col lg:flex-row gap-6 max-w-5xl mx-auto px-2 text-white'>
+       <article className='mt-32 flex flex-col lg:flex-row gap-6 max-w-5xl mx-auto px-2'>
           <div className='w-full md:w-9/12 md:mx-auto lg:max-w-xl'>
             <header>
               <h3 className='mb-6 text-2xl font-bold md:text-3xl'>App Countries</h3>
             </header>
             <p className='mb-5'>
-            This was my first full stack project. I carried out on my own along thee weeks.
+            This was my first full stack project. I carried out on my own along three weeks.
             </p>
             <span className='text-xl font-bold md:text-2xl'>Functionalities</span>
             <p className='mb-5'>
@@ -160,10 +160,10 @@ const Projects = () => {
             </div>
           </div>
           <div className='max-w-sm mx-auto mx-auto lg:mx-0 lg:mr-auto lg:w-8/12'>
-            <Link to="https://countries-iu6qy.ondigitalocean.app" className="btn btn-lg bg-slate-100 text-black mt-14 min-[321px]:mr-4" target="_blank">
+            <Link to="https://countries-iu6qy.ondigitalocean.app" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] mt-14 min-[321px]:mr-4" target="_blank">
             Watch it Live
             </Link>
-            <Link to="https://github.com/Dante1704/PI-countries" className="btn btn-lg bg-slate-100 text-black min-[321px]:ml-4" target="_blank">
+            <Link to="https://github.com/Dante1704/PI-countries" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] min-[321px]:ml-4" target="_blank">
             GitHub    
             </Link>
             <img src={earth_globe} className="max-w-[250px] mt-14 hidden lg:block contrast-50" alt="git icon"/>

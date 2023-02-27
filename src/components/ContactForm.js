@@ -1,14 +1,22 @@
-import React,{useState} from 'react';
+import React,{useState, useRef, useEffect} from 'react';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
 
 
 const ContactForm = () => {
+  
+   const nameRef = useRef();
+
    const [input, setInput] = useState({
     from_name:"",
     from_email:"",
     message:"",
    });
+
+   //cuando se monta el componente ya aparece listo el cursor sobre el primer input de name para empezar a escribir. 
+   useEffect(()=>{
+    nameRef.current.select()
+   },[])
 
   const handleValue = (e) => {
     const property = e.target.name;
@@ -28,7 +36,6 @@ const ContactForm = () => {
 
   const handleSendMessage = (e) => {
     e.preventDefault();
-    console.log(e.target);
     emailjs.sendForm("service_wi35ken","template_25i093g",e.target,"orQH8RSYIHTN8myvp")
     .then(
       (result) => {
@@ -58,7 +65,7 @@ const ContactForm = () => {
       <div className="form-control">
         <label className="input-group input-group-vertical">
           <span>Name :</span>
-          <input type="text" placeholder="your name" name='from_name' className="input input-bordered" value={input.name} onChange={handleValue} required />
+          <input type="text" placeholder="your name" name='from_name' className="input input-bordered" value={input.name} onChange={handleValue} ref={nameRef} required />
         </label>
       </div>
      <div className="form-control">

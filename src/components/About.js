@@ -22,8 +22,8 @@ import "../index.css";
 const About = () => {
   return (
    <>
-     <h2 className='header-about text-5xl font-bold font-poppins text-center w-max subpixel-antialiased mx-auto p-2 pt-44'>About Me</h2>
-     <section id='about' className='text-white mt-32'>
+     <h2 className='text-[#eee1ff] text-5xl font-bold font-poppins text-center w-max subpixel-antialiased mx-auto p-2 pt-44'>About Me</h2>
+     <section id='about' className='text-[#eee1ff] mt-32'>
          <div className="flex flex-col justify-center items-center md:flex-row md:items-start">
             <div className="flex flex-col justify-center items-center">
               <div className="avatar">
@@ -31,7 +31,7 @@ const About = () => {
                   <img src={profile} className="max-w-xs" alt="Dante's profile"/>
                 </div>
               </div>
-              <Link to="/pdf" className="btn btn-lg bg-slate-100 text-black mt-14" target="_blank">
+              <Link to="/pdf" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] mt-14" target="_blank">
                   GET MY RÉSUMÉ
               </Link>
               <div className='w-4/5 mx-auto mt-14 flex justify-around'>
@@ -124,7 +124,7 @@ const About = () => {
                 </div>
              </div>
            </div>
-         </div>
+         </div> 
        </div>
      </section>
    </>
