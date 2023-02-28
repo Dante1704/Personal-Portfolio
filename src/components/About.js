@@ -31,7 +31,7 @@ const About = () => {
                   <img src={profile} className="max-w-xs" alt="Dante's profile"/>
                 </div>
               </div>
-              <Link to="/pdf" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] mt-14" target="_blank">
+              <Link to="/pdf" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] hover:bg-[#e6f3ff] mt-14" target="_blank">
                   GET MY RÉSUMÉ
               </Link>
               <div className='w-4/5 mx-auto mt-14 flex justify-around'>

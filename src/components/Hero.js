@@ -24,9 +24,9 @@ const Hero = () => {
               <p className='my-8 md:my-16 text-neutral xl:leading-loose text-[#0c0019]'>I am a Web Developer based in Argentina. I have worked in many industries, have completed 2 years of engineering, and have completed 50% math teacher career, as well. Those achievements, allow me to see things from different points of view, to have a logical thinking, and break down a huge problem into little problem and so on until I can start working in the solution. Right now, I am implementing all this in web development because I have discovered, after more than 800hs of programming, that is my passion.</p>
             </div>
             <div className="mt-20 px-3 flex justify-start gap-10">
-              <Link to="/pdf" target="_blank"><button className="btn bg-[#23014c] text-[#eee1ff]">GET MY RÉSUMÉ</button></Link>
+              <Link to="/pdf" target="_blank"><button className="btn bg-[#23014c] text-[#e6e7ff] hover:bg-[#012a4c]">GET MY RÉSUMÉ</button></Link>
               <a href='mailto:dante.nkaddarian@gmail.com'>
-                <button className="btn bg-[#23014c] text-[#eee1ff]">email me</button>
+                <button className="btn bg-[#23014c] text-[#e6e7ff] hover:bg-[#012a4c]">email me</button>
               </a>
             </div>
         </div>

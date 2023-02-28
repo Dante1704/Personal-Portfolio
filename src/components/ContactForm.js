@@ -61,26 +61,26 @@ const ContactForm = () => {
 
 
   return (
-    <form onSubmit={handleSendMessage} className='bg-slate-100 max-w-[616px] flex flex-col gap-10 p-16 rounded-lg'>
+    <form onSubmit={handleSendMessage} className='bg-[#e6e7ff] max-w-[616px] flex flex-col gap-10 p-16 rounded-lg'>
       <div className="form-control">
         <label className="input-group input-group-vertical">
-          <span>Name :</span>
-          <input type="text" placeholder="your name" name='from_name' className="input input-bordered" value={input.name} onChange={handleValue} ref={nameRef} required />
+          <span className='bg-[#e6f3ff] text-[#0c0019]'>Name</span>
+          <input type="text" placeholder="your name" name='from_name' className="input input-bordered text-[#0c0019]" value={input.name} onChange={handleValue} ref={nameRef} required />
         </label>
       </div>
      <div className="form-control">
         <label className="input-group input-group-vertical">
-          <span>Email :</span>
-          <input type="email" placeholder="info@site.com" name="from_email" className="input input-bordered" value={input.email} onChange={handleValue} required/>
+          <span className='bg-[#e6f3ff] text-[#0c0019]'>Email</span>
+          <input type="email" placeholder="info@site.com" name="from_email" className="input input-bordered text-[#0c0019]" value={input.email} onChange={handleValue} required/>
         </label>
       </div>
       <div className="form-control">
         <label className="input-group input-group-vertical">
-          <span>Message :</span>
-          <textarea type="textarea" placeholder="Hi Dante..." name="message" className="input input-bordered" value={input.message} onChange={handleValue} required/>
+          <span className='bg-[#e6f3ff] text-[#0c0019]'>Message</span>
+          <textarea type="textarea" placeholder="Hi Dante..." name="message" className="input input-bordered text-[#0c0019]" value={input.message} onChange={handleValue} required/>
         </label>
       </div>
-      <button type='submit' className="btn">Send Message</button>
+      <button type='submit' className="btn bg-[#23014c] text-[#e6e7ff] hover:bg-[#012a4c]">Send Message</button>
     </form>
   )
 }

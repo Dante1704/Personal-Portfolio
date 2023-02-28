@@ -6,8 +6,8 @@ import Twitter from "../images/twitter.png";
 const Footer = () => {
   return (
     <footer className='bg-[#e6e7ff] text-[#0c0019]'> 
-      <div className='min-h-[250px] flex flex-col gap-10 md:flex-row md:items-center md:justify-evenly  flex-wrap  lg:gap-10 max-w-5xl m-auto'>
-        <p className="hidden glass w-12 h-12 p-2.5	align-bottom rounded-full text-white text-center bg-black font-bold hover:bg-gradient-to-r from-rose-600 to-yellow-400 normal-case text-xl md:block md:self-start md:mt-10">DK</p>
+      <div className='min-h-[250px] flex flex-col gap-10 md:flex-row md:items-center md:justify-evenly flex-wrap lg:gap-10 max-w-5xl m-auto'>
+        <p className="hidden w-12 h-12 p-2.5 align-bottom rounded-full text-white text-center bg-black font-bold normal-case text-xl md:block md:self-start md:mt-10">DK</p>
         <nav>
           <ul className='flex flex-col items-center'>
           <li><a href="#projects" className={"min-w-[120px] btn btn-ghost mb-2 md:text-xl text-[#0c0019]"}>PROJECTS</a></li>

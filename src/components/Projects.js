@@ -25,17 +25,17 @@ const Projects = () => {
             <header>
               <h3 className='mb-6 text-2xl font-bold md:text-3xl'>E-commerce TIENDANUESTRA</h3>
             </header>
-            <p className='mb-5'>
+            <p className='mb-5 xl:leading-loose'>
             This project is a full stack e-commerce project that we carried out between three people in a period of 4 weeks. We worked as a team with agile SCRUM methodology doing weekly sprints.
             I had already done a fullstack project before, but this time we had to demonstrate that we could learn on our own and quickly learn third party technologies and implement them in our projects. 
             </p>
             <span className='text-xl font-bold md:text-2xl'>Functionalities</span>
-            <p className='mb-5'>
+            <p className='mb-5 xl:leading-loose'>
             Authentication and registration methods for new users, searches, filtering,
             personal and product information management, admin panel, garment purchase, stock update, and purchase history.  
             </p>
             <span className='text-xl font-bold md:text-2xl'>My role in this project</span>
-            <p>
+            <p className='mb-5 xl:leading-loose'>
             Mainly I developed all the backend. Login, Authentication, user notifications, middlewares, CRUD, ORM logic, database connections and relationships between tables. But I also collaborated with my colleagues in the front-end. I did the combined filtering of products, the communication with the backend, some of the reducers implemented in Redux and the complete styling of the page with React Bootstrap.  
             </p>
             <iframe className='mt-14' title="tienda nuestra video" src="https://player.vimeo.com/video/790179119?h=dfbcc7810d" width="100%" height="400" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
@@ -88,10 +88,10 @@ const Projects = () => {
             </div>
           </div>
           <div className='max-w-sm mx-auto mx-auto lg:mx-0 lg:mr-auto lg:w-8/12'>
-            <Link to="http://159.223.195.60:3000/" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] mt-14 min-[321px]:mr-4" target="_blank">
+            <Link to="http://159.223.195.60:3000/" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] hover:bg-[#e6f3ff] mt-14 min-[321px]:mr-4" target="_blank">
             Watch it Live
             </Link>
-            <Link to="https://github.com/Dante1704/Henry-s-Final-Project" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] min-[321px]:ml-4" target="_blank">
+            <Link to="https://github.com/Dante1704/Henry-s-Final-Project" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] hover:bg-[#e6f3ff] min-[321px]:ml-4" target="_blank">
             GitHub    
             </Link>
             <img src={ecommerce} className="max-w-[250px] mt-14 hidden lg:block contrast-50" alt="git icon"/>
@@ -103,15 +103,15 @@ const Projects = () => {
             <header>
               <h3 className='mb-6 text-2xl font-bold md:text-3xl'>App Countries</h3>
             </header>
-            <p className='mb-5'>
+            <p className='mb-5 xl:leading-loose'>
             This was my first full stack project. I carried out on my own along three weeks.
             </p>
-            <span className='text-xl font-bold md:text-2xl'>Functionalities</span>
-            <p className='mb-5'>
+            <span className='text-xl font-bold md:text-2xl '>Functionalities</span>
+            <p className='mb-5 xl:leading-loose'>
             The app consists of presenting all the countries through pagination in which the current page you are on is marked. Each country has a detail that can be accessed to see the most relevant information about it, you can filter the countries by different criteria, in the search bar you can search for countries that contain the specified letters or syllables, and finally, we can create activities for each country in the activity creation form.  
             </p>
             <span className='text-xl font-bold md:text-2xl'>My role in this project</span>
-            <p>
+            <p className='mb-5 xl:leading-loose'>
             I developed this project on my own, from the design to the last push to GitHub. 
             </p>
             <iframe  className='mt-14' width="100%" height="400" src="https://www.youtube.com/embed/4eMzm1UMVLo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -160,10 +160,10 @@ const Projects = () => {
             </div>
           </div>
           <div className='max-w-sm mx-auto mx-auto lg:mx-0 lg:mr-auto lg:w-8/12'>
-            <Link to="https://countries-iu6qy.ondigitalocean.app" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] mt-14 min-[321px]:mr-4" target="_blank">
+            <Link to="https://countries-iu6qy.ondigitalocean.app" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] hover:bg-[#e6f3ff] mt-14 min-[321px]:mr-4" target="_blank">
             Watch it Live
             </Link>
-            <Link to="https://github.com/Dante1704/PI-countries" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] min-[321px]:ml-4" target="_blank">
+            <Link to="https://github.com/Dante1704/PI-countries" className="btn btn-lg bg-[#eee1ff] text-[#0c0019] hover:bg-[#e6f3ff] min-[321px]:ml-4" target="_blank">
             GitHub    
             </Link>
             <img src={earth_globe} className="max-w-[250px] mt-14 hidden lg:block contrast-50" alt="git icon"/>

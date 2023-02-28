@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="relative navbar flex flex-col sm:flex-row justify-between mx-auto max-w-5x1  lg:w-full bg-gradient-to-b from-[#f5f5ff] to-[#e6e7ff] ">
          <div className="flex flex-row justify-between w-full">
-            <p className="glass w-12 h-12 p-2.5	align-bottom rounded-full text-white text-center bg-black font-bold hover:bg-gradient-to-r from-rose-600 to-yellow-400 normal-case text-xl">DK</p>
+            <p className="w-12 h-12 p-2.5	align-bottom rounded-full text-white text-center bg-black font-bold normal-case text-xl">DK</p>
             {  
               isExpanded ?
               <button className="btn-sm btn btn-square btn-outline sm:hidden" onClick={()=>setIsExpanded(!isExpanded)}>
