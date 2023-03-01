@@ -52,7 +52,7 @@ const About = () => {
               </div>
             </div>
           <div>
-            <div className='max-w-2xl'>
+            <div className='max-w-2xl mt-14 md:mt-0'>
               <div className="px-4 flex flex-col justify-center items-start">
                 <span className='mb-6 text-2xl font-bold md:text-3xl'>
                 Hi! I'm Dante,
