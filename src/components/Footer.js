@@ -38,16 +38,16 @@ const Footer = () => {
       </div>
       <div className='mt-10 pb-2'>
         <p className='text-center'>
-          Technologies used for this portfolio: ReactJS, TaiwindCSS and DaisyUI.
+          Technologies used for this portfolio: ReactJS, TaiwindCSS, and DaisyUI.
         </p>
         <p className='text-center'>
           Icons created by <a href="https://www.flaticon.com/" title="flaticon" target="_blank" rel="noreferrer" className='link'>Flaticon</a>
         </p>
         <p className='text-center'>
             <a href="https://iconscout.com/icons/redux" target="_blank" rel="noreferrer" className='link'>
-            Redux Logo Icon
+            Redux Icon
             </a>
-            by 
+            &nbsp;by&nbsp;
             <a href="https://iconscout.com/contributors/icon-mafia" target="_blank" rel="noreferrer" className='link'>
             Icon Mafia
             </a>
