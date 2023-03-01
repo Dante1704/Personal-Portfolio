@@ -38,7 +38,7 @@ const Projects = () => {
             <p className='mb-5 xl:leading-loose'>
             Mainly I developed all the backend. Login, Authentication, user notifications, middlewares, CRUD, ORM logic, database connections and relationships between tables. But I also collaborated with my colleagues in the front-end. I did the combined filtering of products, the communication with the backend, some of the reducers implemented in Redux and the complete styling of the page with React Bootstrap.  
             </p>
-            <iframe className='mt-14' width="100%" height="400" src="https://player.vimeo.com/video/790179119?h=dfbcc7810d" title="tienda nuestra video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZfC9fFK_SY8" title="TIENDANUESTRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h3 className='mt-14 text-xl font-bold md:text-2xl'>Tech Stack Used in This Proyect</h3>
             <div className="grid grid-cols-4 gap-4 mt-14">
               <div className='flex flex-col items-center'>
@@ -114,7 +114,7 @@ const Projects = () => {
             <p className='mb-5 xl:leading-loose'>
             I developed this project on my own, from the design to the last push to GitHub. 
             </p>
-            <iframe  className='mt-14' width="100%" height="400" src="https://www.youtube.com/embed/4eMzm1UMVLo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <iframe  className='mt-14' width="100%" height="400" src="https://www.youtube.com/embed/4eMzm1UMVLo" title="App Countries" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <h3 className='mt-14 text-xl font-bold md:text-2xl'>Tech Stack Used in This Proyect</h3>
             <div className="grid grid-cols-4 gap-4 mt-14">
               <div className='flex flex-col items-center'>
