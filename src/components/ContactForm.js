@@ -65,19 +65,19 @@ const ContactForm = () => {
       <div className="form-control">
         <label className="input-group input-group-vertical">
           <span className='bg-[#e6f3ff] text-[#0c0019]'>Name</span>
-          <input type="text" placeholder="your name" name='from_name' className="input input-bordered text-[#0c0019]" value={input.name} onChange={handleValue} ref={nameRef} required />
+          <input type="text" placeholder="your name" name='from_name' className="input input-bordered text-[#0c0019] bg-[#f5f5ff]" value={input.name} onChange={handleValue} ref={nameRef} required />
         </label>
       </div>
      <div className="form-control">
         <label className="input-group input-group-vertical">
           <span className='bg-[#e6f3ff] text-[#0c0019]'>Email</span>
-          <input type="email" placeholder="info@site.com" name="from_email" className="input input-bordered text-[#0c0019]" value={input.email} onChange={handleValue} required/>
+          <input type="email" placeholder="info@site.com" name="from_email" className="input input-bordered text-[#0c0019] bg-[#f5f5ff]" value={input.email} onChange={handleValue} required/>
         </label>
       </div>
       <div className="form-control">
         <label className="input-group input-group-vertical">
           <span className='bg-[#e6f3ff] text-[#0c0019]'>Message</span>
-          <textarea type="textarea" placeholder="Hi Dante..." name="message" className="input input-bordered text-[#0c0019]" value={input.message} onChange={handleValue} required/>
+          <textarea type="textarea" placeholder="Hi Dante..." name="message" className="input input-bordered text-[#0c0019] bg-[#f5f5ff]" value={input.message} onChange={handleValue} required/>
         </label>
       </div>
       <button type='submit' className="btn bg-[#23014c] text-[#e6e7ff] hover:bg-[#012a4c]">Send Message</button>
