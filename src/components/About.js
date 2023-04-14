@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import profile from "../images/Profile-Picture.jpeg";
+import profile from "../images/Profile-Picture.jpg";
 import GitHub from "../images/github.png";
 import LinkedIn from "../images/linkedin.png";
 import Twitter from "../images/twitter.png";
